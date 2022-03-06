@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl">
+
+
+    <com.github.ybq.android.spinkit.SpinKitView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progress"
+        style="@style/SpinKitView.Large.MultiplePulse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:SpinKit_Color="@color/colorAccent" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/fragment_send_email_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:src="@drawable/ic_forget_pass" />
+
+
+            <TextView
+                android:id="@+id/fragment_send_email_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_send_email_logo"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:fontFamily="@font/ibm_bold"
+                android:gravity="center"
+                android:text="@string/forgot_your_password"
+                android:textColor="@color/textTitle"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/fragment_send_email_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_send_email_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:fontFamily="@font/ibm_regular"
+                android:gravity="center"
+                android:text="@string/fill_in_this_information_to_receive_a_new_password_activation_code"
+                android:textColor="@color/textHintColor" />
+
+
+            <EditText
+                android:id="@+id/fragment_send_email_tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_send_email_text"
+                android:background="@drawable/shape_edit_text_color"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:hint="@string/email"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:textSize="@dimen/_10ssp" />
+
+
+            <Button
+                android:id="@+id/fragment_send_email_btn_send"
+                android:layout_below="@+id/fragment_send_email_tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:background="@drawable/shape_button"
+                android:text="@string/send"
+                android:textAllCaps="false"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

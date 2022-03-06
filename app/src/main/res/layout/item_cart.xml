@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginEnd="@dimen/_15sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    app:cardElevation="1dp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:elevation="1dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/item_cart_iv_logo"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:src="@drawable/logoo"
+            android:padding="@dimen/_10sdp"/>
+
+
+
+        <ImageView
+            android:id="@+id/item_cart_iv_delete"
+            android:layout_alignParentEnd="true"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_delete"
+            android:layout_margin="@dimen/_10sdp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/item_cart_tv_name"
+            android:layout_toStartOf="@+id/item_cart_iv_delete"
+            android:layout_toEndOf="@+id/item_cart_iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تيشرت"
+            android:maxLines="1"
+            android:fontFamily="@font/ibm_bold"
+            android:textColor="@color/textTitle"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp" />
+
+
+        <TextView
+            android:id="@+id/item_cart_tv_price"
+            android:layout_below="@+id/item_cart_tv_name"
+            android:layout_toEndOf="@+id/item_cart_iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="100 جنية"
+            android:textColor="@color/borderEditText"
+            android:textSize="@dimen/_10ssp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_cart_tv_price"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_toEndOf="@+id/item_cart_iv_logo">
+
+
+            <ImageView
+                android:id="@+id/item_cart_iv_add"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_add" />
+
+
+            <TextView
+                android:id="@+id/item_cart_tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="@dimen/_14sdp" />
+
+
+            <ImageView
+                android:id="@+id/item_cart_iv_remove"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_remove" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

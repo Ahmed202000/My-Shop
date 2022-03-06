@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_not"
+    android:layout_marginTop="@dimen/_6sdp"
+    android:layout_marginEnd="@dimen/_12sdp"
+    android:layout_marginStart="@dimen/_12sdp"
+    android:padding="@dimen/_15sdp">
+
+
+    <TextView
+        android:id="@+id/item_notification_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/ibm_bold"
+        android:textColor="@color/textTitle"/>
+
+
+
+    <TextView
+        android:id="@+id/item_notification_tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:fontFamily="@font/ibm_regular"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black" />
+
+
+
+
+
+</LinearLayout>

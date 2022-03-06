@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginEnd="@dimen/_15sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    app:cardElevation="1dp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:elevation="1dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/item_product_order_lin_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_centerInParent="true"/>
+
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/item_product_order_iv_logo"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:src="@drawable/logoo"
+                android:padding="@dimen/_10sdp"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/item_product_order_tv_name"
+            android:layout_toEndOf="@+id/item_product_order_lin_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تيشرت"
+            android:fontFamily="@font/ibm_bold"
+            android:textColor="@color/textTitle"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp" />
+
+
+        <TextView
+            android:id="@+id/item_product_order_tv_price"
+            android:layout_below="@+id/item_product_order_tv_name"
+            android:layout_toEndOf="@+id/item_product_order_lin_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="100 جنية"
+            android:textColor="@color/borderEditText"
+            android:textSize="@dimen/_10ssp" />
+
+
+
+        <LinearLayout
+            android:layout_below="@+id/item_product_order_tv_price"
+            android:layout_toEndOf="@+id/item_product_order_lin_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quantity"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:textSize="@dimen/_10ssp" />
+
+
+
+            <TextView
+                android:id="@+id/item_product_order_tv_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

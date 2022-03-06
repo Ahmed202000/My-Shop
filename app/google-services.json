@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "517960093358",
+    "project_id": "my-shop-ebbcb",
+    "storage_bucket": "my-shop-ebbcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517960093358:android:d3eda15babbef7e0d5a73f",
+        "android_client_info": {
+          "package_name": "com.hegazy.myshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517960093358-cospri7i24274pj6aptehk44vd6cvr44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hegazy.myshop",
+            "certificate_hash": "7d10b4cf2df476cca4bcac6da428d8a9b4f76057"
+          }
+        },
+        {
+          "client_id": "517960093358-02d09p32121tps7see0g50ae6q0u0vkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4lnfG4aE1twaGCpyg5SyLNZ_HoFPIpi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517960093358-02d09p32121tps7see0g50ae6q0u0vkb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

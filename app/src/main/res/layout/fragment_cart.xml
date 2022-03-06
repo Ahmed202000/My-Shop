@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/fragment_cart_tb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/fragment_cart_iv_bake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/shopping_basket"
+                android:textColor="@color/White"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/fragment_cart_iv_delete"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_delete_outline"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_above="@+id/lin"
+        android:id="@+id/fragment_home_rv_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fragment_cart_tb"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:backgroundTint="@android:color/white"
+        tools:listitem="@layout/item_cart" />
+
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/lin"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/fragment_cart_tv_total_cart"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/textTitle"/>
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/fragment_cart_lin_1"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp">
+
+
+            <Button
+                android:id="@+id/fragment_cart_btn_confirm"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/shape_button"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:text="تكملة الشراء"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_12sdp"/>
+
+
+
+
+
+            <Button
+                android:id="@+id/fragment_cart_btn_more"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/shape_edit_text"
+                android:backgroundTint="@color/textTitle"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:text="إضافة المزيد"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_12sdp"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/fragment_cart_lin_no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_no_data_shaping"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/ibm_regular"
+            android:text="@string/the_cart_is_empty_you_haven_t_added_any_products_yet"/>
+
+
+        <Button
+            android:id="@+id/fragment_cart_btn_go_shopping"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/shape_button"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:textColor="@color/White"
+            android:textSize="@dimen/_12ssp"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/go_shopping"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

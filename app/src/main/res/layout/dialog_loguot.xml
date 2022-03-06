@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_15sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_25sdp"
+    android:layout_gravity="center">
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_10sdp">
+
+
+
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_warning"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_below="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/warning"
+            android:textColor="@color/textHintColor"
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/avenir_bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/dialog_login_text"
+                android:layout_below="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12ssp"
+                android:text="@string/are_you_sure_to_sign_out_of_the_app"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp" />
+
+
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/dialog_login_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp">
+
+
+
+
+            <TextView
+                android:id="@+id/dialog_loguot_tv_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:text="@string/no"
+
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/black"/>
+
+
+
+            <TextView
+                android:id="@+id/dialog_loguot_tv_yes"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:text="@string/yes"
+                android:padding="@dimen/_3sdp"
+                android:gravity="center"
+                android:background="@drawable/shape_button"
+                android:textColor="@color/White"
+                android:textSize="@dimen/_10ssp"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

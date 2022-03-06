@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".ui.activity.setting.address.addAdderss.AddAddressActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_address"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/White"
+                android:textSize="@dimen/_14ssp"
+                android:layout_centerHorizontal="true"/>
+
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/activity_update_address_iv_bake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow"/>
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+
+            <EditText
+                android:id="@+id/activity_update_address_tv_name_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:hint="@string/like_home_or_work_address"
+                android:padding="@dimen/_10sdp"
+                android:drawablePadding="@dimen/_10sdp"
+                android:inputType="text"
+                android:background="@drawable/shape_edit_text_color"/>
+
+
+
+            <EditText
+                android:id="@+id/activity_update_address_tv_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:hint="@string/governorate"
+                android:padding="@dimen/_10sdp"
+                android:background="@drawable/shape_edit_text_color"
+                android:drawablePadding="@dimen/_10sdp"
+                android:inputType="text"/>
+
+
+
+
+            <EditText
+                android:id="@+id/activity_add_complaint_tv_region"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:hint="@string/city"
+                android:padding="@dimen/_10sdp"
+                android:background="@drawable/shape_edit_text_color"
+                android:drawablePadding="@dimen/_10sdp"
+                android:inputType="text"/>
+
+
+            <EditText
+                android:id="@+id/activity_add_complaint_tv_details_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:hint="@string/detailed_address"
+                android:padding="@dimen/_10sdp"
+                android:background="@drawable/shape_edit_text_color"
+                android:drawablePadding="@dimen/_10sdp"
+                android:inputType="text"/>
+
+
+
+            <EditText
+                android:id="@+id/activity_add_complaint_tv_note_address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:gravity="top"
+                android:hint="@string/comment"
+                android:padding="@dimen/_10sdp"
+                android:background="@drawable/shape_edit_text_color"
+                android:drawablePadding="@dimen/_10sdp" />
+
+
+            <Button
+                android:id="@+id/activity_add_complaint_btn_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_button"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:text="@string/save"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_12ssp"
+                android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+

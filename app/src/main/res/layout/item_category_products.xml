@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+            <ImageView
+                android:id="@+id/item_product_iv_logo"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/logoo"
+                android:padding="@dimen/_10sdp"/>
+
+
+
+            <ImageView
+                android:id="@+id/item_product_iv_favorite"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/ic_favorite_border" />
+
+
+
+
+        <TextView
+            android:id="@+id/item_product_tv_name"
+            android:layout_toEndOf="@+id/item_product_iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تيشرت"
+            android:textColor="@color/textTitle"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp" />
+
+
+        <TextView
+            android:id="@+id/item_product_tv_price"
+            android:layout_below="@+id/item_product_tv_name"
+            android:layout_toEndOf="@+id/item_product_iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="100 جنية"
+            android:inputType="text"
+            android:textColor="@color/borderEditText"
+            android:textSize="@dimen/_9ssp" />
+
+        <TextView
+            android:id="@+id/item_product_tv_discount"
+            android:layout_below="@+id/item_product_tv_price"
+            android:layout_toEndOf="@+id/item_product_iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/black_overlay"
+            android:textSize="@dimen/_8ssp"
+            android:inputType="text"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text="@string/categories" />
+
+
+
+        <TextView
+            android:id="@+id/item_product_tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_product_tv_discount"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/item_product_iv_logo"
+            android:maxLines="2"
+            android:text="sdfsfsdfsffsdcds"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10ssp" />
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

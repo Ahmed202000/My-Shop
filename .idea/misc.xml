@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android App/Fanash Android App/My Shop/app/src/main/res/drawable/ic_favorite.xml" value="0.2548717948717949" />
+        <entry key="..\:/Android App/Fanash Android App/My Shop/app/src/main/res/drawable/ic_favorite_border.xml" value="0.2548717948717949" />
+        <entry key="..\:/Android App/Fanash Android App/My Shop/app/src/main/res/drawable/ic_home.xml" value="0.2548717948717949" />
+        <entry key="..\:/Android App/Fanash Android App/My Shop/app/src/main/res/drawable/ic_notification.xml" value="0.2548717948717949" />
+        <entry key="..\:/Android App/Fanash Android App/My Shop/app/src/main/res/drawable/ic_phone.xml" value="0.2548717948717949" />
+        <entry key="..\:/Android App/Fanash Android App/My Shop/app/src/main/res/drawable/ic_user.xml" value="0.2548717948717949" />
+        <entry key="..\:/Android App/Fanash Android App/My Shop/app/src/main/res/layout/activity_home.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

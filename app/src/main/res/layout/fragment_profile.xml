@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginBottom="@dimen/_80sdp"
+        app:cardElevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_20sdp">
+
+
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fragment_profile_iv_user"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:src="@drawable/default_image"
+                android:layout_centerHorizontal="true"
+                app:civ_border_color="@color/textHintColor"
+                app:civ_border_width="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_30sdp"/>
+
+
+
+            <TextView
+                android:id="@+id/fragment_profile_tv_name"
+                android:layout_below="@+id/fragment_profile_iv_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:drawableStart="@drawable/ic_user"
+                android:drawablePadding="@dimen/_10sdp"
+                android:background="@drawable/shape_edit_text_color"/>
+
+
+
+
+            <TextView
+                android:id="@+id/fragment_profile_tv_email"
+                android:layout_below="@+id/fragment_profile_tv_name"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="@dimen/_10sdp"
+                android:background="@drawable/shape_edit_text_color"/>
+
+
+
+            <TextView
+                android:id="@+id/fragment_profile_tv_phone"
+                android:layout_below="@+id/fragment_profile_tv_email"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:drawableStart="@drawable/ic_phone"
+                android:drawablePadding="@dimen/_10sdp"
+                android:background="@drawable/shape_edit_text_color"/>
+
+
+
+            <Button
+                android:id="@+id/fragment_profile_btn_Edit"
+                android:layout_below="@+id/fragment_profile_tv_phone"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/backrund"
+                android:text="@string/edit_profile"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:textAllCaps="false"
+                android:background="@drawable/shape_edit_text"
+                android:layout_marginBottom="@dimen/_20sdp"/>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

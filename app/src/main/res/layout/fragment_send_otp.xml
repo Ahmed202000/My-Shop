@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl">
+
+
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <ImageView
+                android:id="@+id/fragment_send_otp_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:src="@drawable/ic_forget_pass" />
+
+
+            <TextView
+                android:id="@+id/fragment_send_otp_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_send_otp_logo"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:text="@string/identity_confirmation"
+                android:fontFamily="@font/ibm_bold"
+                android:gravity="center"
+                android:textColor="@color/textTitle"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/fragment_send_otp_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_send_otp_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:fontFamily="@font/ibm_regular"
+                android:gravity="center"
+                android:text="@string/then_enter_the_code_that_we_sent_you_via_e_mail_to_confirm_your_identity_and_then_change_the_password"
+                android:textColor="@color/textHintColor"
+                android:textStyle="bold" />
+
+
+
+            <com.chaos.view.PinView
+                android:id="@+id/fragment_send_otp_otp"
+                android:layout_below="@+id/fragment_send_otp_text"
+                style="@style/PinWidget.PinView"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:cursorVisible="true"
+                android:hint="0"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_35sdp"
+                app:cursorColor="@color/textHintColor"
+                app:itemCount="4"
+                app:itemHeight="@dimen/_40sdp"
+                app:itemRadius="@dimen/_5sdp"
+                app:itemWidth="@dimen/_40sdp"
+                app:lineColor="@color/black"
+                app:lineWidth="@dimen/_1sdp"
+                app:viewType="rectangle" />
+
+
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/fragment_send_otp_tv_timer"
+                android:layout_below="@+id/fragment_send_otp_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="60"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold"
+                android:textColor="@color/textHintColor"/>
+
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/fragment_send_otp_tv_return"
+                android:layout_below="@+id/fragment_send_otp_tv_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resend"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="@dimen/_50sdp"/>
+
+
+
+            <Button
+                android:id="@+id/fragment_send_otp_btn_verification"
+                android:layout_below="@+id/fragment_send_otp_tv_return"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:background="@drawable/shape_button"
+                android:text="@string/verification"
+                android:textStyle="bold"
+                android:textColor="@color/White"
+                android:textAllCaps="false"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

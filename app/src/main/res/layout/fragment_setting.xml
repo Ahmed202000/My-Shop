@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/fragment_setting_tv_my_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_order"
+        android:textColor="@color/textHintColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:drawableStart="@drawable/ic_check_list"
+        android:drawablePadding="@dimen/_10sdp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="#320A1553"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_15sdp"/>
+
+
+
+    <TextView
+        android:id="@+id/fragment_setting_tv_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_password"
+        android:textColor="@color/textHintColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:drawableStart="@drawable/ic_baseline_lock"
+        android:drawablePadding="@dimen/_10sdp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="#320A1553"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_15sdp"/>
+
+
+
+        <TextView
+        android:id="@+id/fragment_setting_tv_categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/categories"
+        android:textColor="@color/textHintColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:drawableStart="@drawable/ic_category"
+        android:drawablePadding="@dimen/_10sdp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="#320A1553"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_15sdp"/>
+
+
+            <TextView
+                android:id="@+id/fragment_setting_tv_add_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_address"
+                android:textColor="@color/textHintColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:drawableStart="@drawable/ic_add_address"
+                android:drawablePadding="@dimen/_10sdp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#320A1553"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_15sdp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/fragment_setting_tv_contacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contacts"
+                android:textColor="@color/textHintColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:drawableStart="@drawable/ic_contacts"
+                android:drawablePadding="@dimen/_10sdp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#320A1553"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_15sdp"/>
+
+
+
+            <TextView
+                android:id="@+id/fragment_setting_tv_common_questions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/common_questions"
+                android:textColor="@color/textHintColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:drawableStart="@drawable/ic_question"
+                android:drawablePadding="@dimen/_10sdp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#320A1553"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_15sdp"/>
+
+
+
+            <TextView
+                android:id="@+id/fragment_setting_tv_add_complaint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_complaint"
+                android:textColor="@color/textHintColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:drawableStart="@drawable/ic_complaint"
+                android:drawablePadding="@dimen/_10sdp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#320A1553"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_15sdp"/>
+
+
+            <TextView
+                android:id="@+id/fragment_setting_tv_about_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app"
+                android:textColor="@color/textHintColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:drawableStart="@drawable/ic_about"
+                android:drawablePadding="@dimen/_10sdp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#320A1553"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_15sdp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/fragment_setting_tv_terms_and_conditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_and_conditions"
+                android:textColor="@color/textHintColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:drawableStart="@drawable/ic_terms_conditions"
+                android:drawablePadding="@dimen/_10sdp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#320A1553"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_15sdp"/>
+
+
+
+            <TextView
+                android:id="@+id/fragment_setting_tv_rate_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_app"
+                android:textColor="@color/textHintColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:drawableStart="@drawable/ic_star"
+                android:drawablePadding="@dimen/_10sdp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#320A1553"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_15sdp"/>
+
+
+
+            <TextView
+                android:id="@+id/fragment_setting_tv_shear_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shear_app"
+                android:textColor="@color/textHintColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:drawableStart="@drawable/ic_share_app"
+                android:drawablePadding="@dimen/_10sdp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#320A1553"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_15sdp"/>
+
+
+
+
+
+            <TextView
+                android:id="@+id/fragment_setting_tv_log_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/logout"
+                android:textColor="#E80B0B"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:drawableStart="@drawable/ic_logout"
+                android:drawablePadding="@dimen/_10sdp"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

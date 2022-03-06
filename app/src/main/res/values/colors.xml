@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F07313</color>
+    <color name="colorPrimaryDark">#F07313</color>
+    <color name="colorAccent">#0A1553</color>
+
+
+    <color name="status_bar_light">#000</color>
+    <color name="textTitle">#0A1553</color>
+    <color name="textHintColor">#7A0A1553</color>
+    <color name="borderEditText">#4CAF50</color>
+    <color name="not">#1100BF08</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="backrund">#F07313</color>
+    <color name="black">#000000</color>
+    <color name="Cancelled">#CD0202</color>
+
+
+</resources>
